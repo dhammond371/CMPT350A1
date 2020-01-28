@@ -1,0 +1,56 @@
+#bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.65;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    margin: 5%;
+    color: white;
+    font-size: 90px;
+    font-family:  Optima, sans-serif;
+}
+
+#table {
+    position: relative;
+    margin-left: 150px;
+    margin-top: 180px;
+    color: black;
+    background-color: rgb(0, 0, 0, 0.4);
+    font-size: 30px;
+    padding: 50px;
+    margin-bottom: 35px;
+}
+
+td {
+    text-align: left;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.myButton {
+    background-color: rgb(74, 175, 108);
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+    border: 2px black;
+    margin-left: 10px;
+    margin-top: 40px;
+    box-shadow:  7px 7px 5px black;
+    position: relative;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #287149 50%, rgb(149, 207, 161) 100%);
+	background-color:#287149;
+}

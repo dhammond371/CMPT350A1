@@ -1,0 +1,101 @@
+#bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.65;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    margin: 5%;
+    color: white;
+    font-size: 90px;
+    font-family:  Optima, sans-serif;
+}
+
+#table {
+    position: relative;
+    color: black;
+    background-color: rgb(0, 0, 0, 0.5);
+    font-size: 30px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+td, th {
+    text-align: left;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+td {
+    text-align: center;
+}
+
+td:active {
+    background-color: red;
+}
+
+.tooltip {
+    position: relative;
+    border-bottom: 1px dotted black;
+  }
+  .tooltip span {
+    visibility: hidden;
+    width: 10em;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 9;
+    bottom: -4em;
+    left:  -105%;
+    margin-left:1em;
+    opacity: 0;
+    transition: opacity 1s;
+    /* direction: down; */
+  }
+  .tooltip span::after {
+    content: "";
+    position: absolute;
+    top: 1.5em;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+  }
+  .tooltip input {
+    display:none;
+  }
+  .tooltip input:checked+span {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .myButton {
+    background-color: rgb(74, 175, 108);
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+    border: 2px black;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow:  7px 7px 5px black;
+    position: relative;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #287149 50%, rgb(149, 207, 161) 100%);
+	background-color:#287149;
+}

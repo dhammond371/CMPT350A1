@@ -1,0 +1,121 @@
+#bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.65;
+}
+
+#logo {
+    position: relative;
+    
+    margin-left: 10px;
+}
+
+body {
+    background-color: black;
+}
+
+#head {
+    position: relative;
+    margin-top: 3%;
+    text-align: right;
+    text-shadow: 4px 4px 2px #092904, 5px 5px 0px rgba(0,0,0,0.4);
+    color: white;
+    font-size: 70px;
+}
+
+hr {
+    position: relative;
+    width: 50%;
+    size: 10;
+    border-top: 5px solid black;
+    border-bottom: 1px solid #0f5704;
+}
+
+ /* Dropdown Button */
+ .dropbtn {
+    background-color: rgb(74, 175, 108);
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+    border: 2px black;
+    margin-left: 1100px;
+    margin-top: 10px;
+    box-shadow:  7px 7px 5px black;
+  }
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content */
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #eeeded;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+    z-index: 1;
+  }
+  
+  /* Links to be put inside the dropdown */
+  .dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links when mouse hovers */
+  .dropdown-content2 a:hover {
+      background-color: #ddd;
+      font-size: 20;
+    }
+  
+  /* Show the dropdown menu when mouse hovers */
+  .dropdown:hover .dropdown-content2 {
+      display: block;
+      /* margin-top: 49%; */
+      margin-left: 1100px;
+    }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #287149;} 
+
+  h1 {
+    position: relative;
+    padding-top: 85px;
+    padding-left: 60px;
+    padding-bottom: 85px;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.56);
+    /* background-origin: content-box; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  #pic {
+      position: relative;
+      width: 550px;
+      text-align: right;
+      margin-top: 110px;
+      margin-bottom: 30px;
+      margin-right: 30px;
+      /* border: 28px solid rgba(0, 0, 0, 0.4); */
+      z-index: 1;
+  }
+
+  em {
+      /* color: #247a17; */
+
+      text-shadow: 3px 1px 1px #287149, 4px 3px 7px #287149;
+
+  }
